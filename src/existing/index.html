@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phoenix Trade Partners — International Trade Intermediary</title>
+  <meta name="description" content="Phoenix Trade Partners — premium international trade intermediary for procurement and deal facilitation. Trusted partnerships.">
+  <meta property="og:title" content="Phoenix Trade Partners" />
+  <meta property="og:description" content="Premium international trade intermediary for procurement and deal facilitation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/banner.jpg" />
+  <meta name="theme-color" content="#0d0d0d" />
+
+  <!-- Fonts: Cinzel for headings, Crimson Text for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind via CDN for quick start -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Cinzel', 'serif'],
+            body: ['Crimson Text', 'serif']
+          },
+          colors: {
+            ink: {
+              900: '#0a0a0a',
+              700: '#2a2a2a',
+              500: '#5a5a5a',
+              200: '#d9d9d9'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Fine-tuned grayscale look */
+    html { color-scheme: only dark light; }
+    .grain { background-image: radial-gradient( rgba(0,0,0,0.06) 1px, transparent 1px ); background-size: 3px 3px; }
+    .text-balance { text-wrap: balance; }
+  </style>
+</head>
+<body class="bg-neutral-50 text-neutral-900">
+  <!-- Top bar -->
+  <header class="border-b border-neutral-200/70 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="flex items-center gap-3">
+          <!-- Logo placeholder; swap src with your final logo file path -->
+          <img src="/logo.png" alt="Phoenix Trade Partners" class="h-10 w-auto" />
+          <span class="font-display tracking-[0.12em] text-xl sm:text-2xl">PHOENIX <span class="sr-only">Trade Partners</span></span>
+        </div>
+        <nav class="hidden md:flex items-center gap-8 font-body">
+          <a href="#services" class="hover:text-neutral-600">Services</a>
+          <a href="#about" class="hover:text-neutral-600">About</a>
+          <a href="#values" class="hover:text-neutral-600">Why Us</a>
+          <a href="#contact" class="hover:text-neutral-600">Contact</a>
+        </nav>
+        <a href="#contact" class="rounded-2xl border border-neutral-900 px-4 py-2 text-sm font-body hover:bg-neutral-900 hover:text-white transition">Start a Deal</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="grain relative overflow-hidden border-b border-neutral-200">
+    <div class="absolute inset-0 bg-gradient-to-br from-neutral-100 via-white to-neutral-100"></div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+        <div>
+          <h1 class="font-display text-4xl sm:text-5xl tracking-wide leading-tight">International Trade, <span class="text-neutral-700">Made Certain</span></h1>
+          <p class="mt-5 max-w-xl text-lg font-body text-neutral-700 text-balance">Phoenix Trade Partners facilitates global procurement and deal execution with precision, confidentiality, and speed—so counterparties can focus on outcomes.</p>
+          <div class="mt-8 flex gap-3">
+            <a href="#contact" class="rounded-2xl bg-neutral-900 text-white px-6 py-3 font-body hover:opacity-90">Request a Callback</a>
+            <a href="#services" class="rounded-2xl border border-neutral-900 px-6 py-3 font-body hover:bg-neutral-900 hover:text-white">View Services</a>
+          </div>
+          <ul class="mt-8 grid grid-cols-3 max-w-lg text-center text-sm text-neutral-600 font-body">
+            <li class="py-2 border-r border-neutral-200">Procurement</li>
+            <li class="py-2 border-r border-neutral-200">Deal Facilitation</li>
+            <li class="py-2">Quality Assurance</li>
+          </ul>
+        </div>
+        <div class="md:justify-self-end">
+          <!-- Hero mark with your phoenix; adjust width/height as needed -->
+          <img src="/banner.jpg" alt="Phoenix banner" class="w-full max-w-xl rounded-2xl shadow" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="rounded-2xl border border-neutral-200 p-6">
+          <h3 class="font-display text-xl tracking-wide">Strategic Sourcing</h3>
+          <p class="mt-2 font-body text-neutral-700">End‑to‑end supplier search, vetting, and negotiation for reliable delivery timelines and costs.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 p-6">
+          <h3 class="font-display text-xl tracking-wide">Deal Facilitation</h3>
+          <p class="mt-2 font-body text-neutral-700">Term sheets, documentation flow, and milestone management across jurisdictions and time zones.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 p-6">
+          <h3 class="font-display text-xl tracking-wide">Quality & Compliance</h3>
+          <p class="mt-2 font-body text-neutral-700">Independent inspection coordination and compliance checks to ensure product and contract integrity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Values -->
+  <section id="about" class="bg-neutral-50 border-y border-neutral-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="font-display text-3xl tracking-wide">Focused on Outcomes</h2>
+          <p class="mt-4 font-body text-neutral-700">Phoenix Trade Partners aligns counterparties and logistics into one streamlined flow. Expect disciplined communication, contractual clarity, and reliable execution.</p>
+          <ul class="mt-6 space-y-3 font-body text-neutral-800">
+            <li>• Clear single point of contact</li>
+            <li>• Transparent milestone tracking</li>
+            <li>• Vendor neutrality and confidentiality</li>
+          </ul>
+        </div>
+        <div id="values" class="rounded-2xl border border-neutral-200 p-6">
+          <h3 class="font-display text-2xl tracking-wide">Why Phoenix</h3>
+          <div class="mt-4 grid sm:grid-cols-2 gap-4">
+            <div class="rounded-xl border border-neutral-200 p-4">
+              <p class="font-display">Speed</p>
+              <p class="font-body text-neutral-700">Fast responses and decision‑ready options.</p>
+            </div>
+            <div class="rounded-xl border border-neutral-200 p-4">
+              <p class="font-display">Assurance</p>
+              <p class="font-body text-neutral-700">Diligence, inspections, and clear acceptance criteria.</p>
+            </div>
+            <div class="rounded-xl border border-neutral-200 p-4">
+              <p class="font-display">Trust</p>
+              <p class="font-body text-neutral-700">Contracts that protect both parties and relationships.</p>
+            </div>
+            <div class="rounded-xl border border-neutral-200 p-4">
+              <p class="font-display">Global</p>
+              <p class="font-body text-neutral-700">Coverage across MENA, Europe, and Africa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16 text-center">
+      <h2 class="font-display text-3xl tracking-wide">Begin a Conversation</h2>
+      <p class="mt-3 font-body text-neutral-700">Send a brief about your requirement and preferred timelines. We’ll reply with next steps and a call time.</p>
+      <div class="mt-6 grid gap-3 sm:grid-cols-3 font-body">
+        <a href="mailto:contact@phoenixtradepartners.com" class="rounded-2xl border border-neutral-900 px-4 py-3 hover:bg-neutral-900 hover:text-white">Email</a>
+        <a href="https://www.linkedin.com" class="rounded-2xl border border-neutral-900 px-4 py-3 hover:bg-neutral-900 hover:text-white">LinkedIn</a>
+        <a href="tel:+0000000000" class="rounded-2xl border border-neutral-900 px-4 py-3 hover:bg-neutral-900 hover:text-white">Call</a>
+      </div>
+      <p class="mt-6 text-sm text-neutral-500">By contacting us you consent to being reached for business purposes.</p>
+    </div>
+  </section>
+
+  <footer class="border-t border-neutral-200 bg-neutral-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="font-body text-sm text-neutral-600">© <span id="year"></span> Phoenix Trade Partners. All rights reserved.</p>
+      <nav class="text-sm font-body text-neutral-600 flex gap-4">
+        <a href="#" class="hover:text-neutral-800">Privacy</a>
+        <a href="#" class="hover:text-neutral-800">Terms</a>
+        <a href="#contact" class="hover:text-neutral-800">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
