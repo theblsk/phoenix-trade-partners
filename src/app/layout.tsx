@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Cinzel, Crimson_Text } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const cinzel = Cinzel({
@@ -49,6 +50,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${cinzel.variable} ${crimson.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );

@@ -7,15 +7,7 @@ export default function SiteFooter() {
           © {year} Phoenix Trade Partners. All rights reserved.
         </p>
         <nav className="text-sm [font-family:var(--font-body)] text-neutral-600 flex gap-4">
-          <a href="#" className="hover:text-neutral-800">
-            Privacy
-          </a>
-          <a href="#" className="hover:text-neutral-800">
-            Terms
-          </a>
-          <a href="#contact" className="hover:text-neutral-800">
-            Contact
-          </a>
+          
         </nav>
       </div>
     </footer>

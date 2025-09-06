@@ -9,11 +9,11 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div>
-            <h1 className="[font-family:var(--font-display)] text-4xl sm:text-5xl tracking-wide leading-tight">
+            <h1 className="[font-family:var(--font-display)] text-4xl sm:text-5xl tracking-wide leading-tight font-semibold">
               International Trade,{" "}
               <span className="text-neutral-700">Made Certain</span>
             </h1>
-            <p className="mt-5 max-w-xl text-lg [font-family:var(--font-body)] text-neutral-700 text-balance">
+            <p className="mt-5 max-w-xl text-lg [font-family:var(--font-body)] text-neutral-700 text-balance font-medium">
               Phoenix Trade Partners facilitates global procurement and deal
               execution with precision, confidentiality, and speed, so
               counterparties can focus on outcomes.

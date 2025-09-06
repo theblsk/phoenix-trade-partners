@@ -17,13 +17,13 @@ export default function Contact() {
             Email
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/company/phoenix-trade-partners/"
             className="rounded-2xl border border-neutral-900 px-4 py-3 hover:bg-neutral-900 hover:text-white"
           >
             LinkedIn
           </a>
           <a
-            href="tel:+0000000000"
+            href="tel:+971501802689"
             className="rounded-2xl border border-neutral-900 px-4 py-3 hover:bg-neutral-900 hover:text-white"
           >
             Call

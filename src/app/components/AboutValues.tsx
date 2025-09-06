@@ -2,12 +2,15 @@ export default function AboutValues() {
   return (
     <section id="about" className="bg-neutral-50 border-y border-neutral-200">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+        <header className="mb-8">
+          <h2 className="[font-family:var(--font-display)] text-3xl tracking-wide">Why Us</h2>
+          <p className="mt-2 [font-family:var(--font-body)] text-neutral-700 max-w-2xl">
+            Focused on outcomes with disciplined communication and reliable execution.
+          </p>
+        </header>
         <div className="grid md:grid-cols-2 gap-10 items-start">
           <div>
-            <h2 className="[font-family:var(--font-display)] text-3xl tracking-wide">
-              Focused on Outcomes
-            </h2>
-            <p className="mt-4 [font-family:var(--font-body)] text-neutral-700">
+            <p className="[font-family:var(--font-body)] text-neutral-700 text-lg leading-relaxed">
               Phoenix Trade Partners aligns counterparties and logistics into
               one streamlined flow. Expect disciplined communication,
               contractual clarity, and reliable execution.
@@ -22,10 +25,7 @@ export default function AboutValues() {
             id="values"
             className="rounded-2xl border border-neutral-200 p-6"
           >
-            <h3 className="[font-family:var(--font-display)] text-2xl tracking-wide">
-              Why Phoenix
-            </h3>
-            <div className="mt-4 grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4">
               <div className="rounded-xl border border-neutral-200 p-4">
                 <p className="[font-family:var(--font-display)]">Speed</p>
                 <p className="[font-family:var(--font-body)] text-neutral-700">
