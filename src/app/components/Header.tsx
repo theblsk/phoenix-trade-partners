@@ -9,16 +9,16 @@ export default function Header() {
             <Image
               src="/logo.webp"
               alt="Phoenix Trade Partners"
-              width={168}
-              height={56}
+              width={192}
+              height={64}
               priority
-              sizes="(min-width: 768px) 168px, 128px"
-              className="h-12 md:h-14 w-auto"
+              sizes="(min-width: 768px) 192px, 160px"
+              className="h-14 md:h-16 w-auto"
             />
             {/* Desktop wordmark */}
             <span className="hidden md:inline [font-family:var(--font-display)] tracking-[0.12em] text-2xl">Phoenix Trade Partners</span>
-            {/* Mobile wordmark (smaller, wraps nicely) */}
-            <span className="md:hidden [font-family:var(--font-display)] text-sm leading-tight text-neutral-900">Phoenix Trade Partners</span>
+            {/* Mobile wordmark hidden to let the logo stand alone */}
+            <span className="hidden">Phoenix Trade Partners</span>
           </div>
           <nav className="hidden md:flex items-center gap-6 ml-auto [font-family:var(--font-body)]">
             <a href="#services" className="hover:text-neutral-600">Services</a>
