@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function Hero() {
   return (
     <section className="grain relative overflow-hidden border-b border-neutral-200">
@@ -33,20 +32,6 @@ export default function Hero() {
                 View Services
               </a>
             </div>
-            <ul className="mt-8 grid grid-cols-1 md:grid-cols-3 max-w-xl text-center text-base [font-family:var(--font-body)] text-neutral-800 gap-3">
-              <li className="py-4 px-4 flex items-center justify-center gap-2 font-semibold rounded-2xl backdrop-blur-md supports-[backdrop-filter]:bg-white/40 bg-white/60 ring-1 ring-white/50 border border-white/60 shadow-lg hover:bg-white/70 transition-colors duration-200">
-                <Image src="/window.svg" alt="" aria-hidden="true" width={16} height={16} />
-                Procurement
-              </li>
-              <li className="py-4 px-4 flex items-center justify-center gap-2 font-semibold rounded-2xl backdrop-blur-md supports-[backdrop-filter]:bg-white/40 bg-white/60 ring-1 ring-white/50 border border-white/60 shadow-lg hover:bg-white/70 transition-colors duration-200">
-                <Image src="/globe.svg" alt="" aria-hidden="true" width={16} height={16} />
-                Deal Facilitation
-              </li>
-              <li className="py-4 px-4 flex items-center justify-center gap-2 font-semibold rounded-2xl backdrop-blur-md supports-[backdrop-filter]:bg-white/40 bg-white/60 ring-1 ring-white/50 border border-white/60 shadow-lg hover:bg-white/70 transition-colors duration-200">
-                <Image src="/file.svg" alt="" aria-hidden="true" width={16} height={16} />
-                Quality Assurance
-              </li>
-            </ul>
           </div>
         </div>
       </div>
