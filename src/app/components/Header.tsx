@@ -1,11 +1,21 @@
+"use client";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+  function handleHomeClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
+    if (pathname === "/") {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
   return (
     <header className="sticky top-0 z-50 border-b border-neutral-200/70 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center gap-0">
+          <Link href="/" scroll className="flex items-center gap-0" onClick={handleHomeClick}>
             <Image
               src="/logo.webp"
               alt="Phoenix Trade Partners"
@@ -19,7 +29,7 @@ export default function Header() {
             <span className="hidden md:inline [font-family:var(--font-display)] tracking-[0.12em] text-2xl">Phoenix Trade Partners</span>
             {/* Mobile wordmark hidden to let the logo stand alone */}
             <span className="hidden">Phoenix Trade Partners</span>
-          </div>
+          </Link>
           <nav className="hidden md:flex items-center gap-6 ml-auto [font-family:var(--font-body)]">
             <a href="#services" className="hover:text-neutral-600">Services</a>
             <a href="#about" className="hover:text-neutral-600">About</a>

@@ -3,9 +3,12 @@ export default function AboutValues() {
     <section id="about" className="bg-neutral-50 border-y border-neutral-200">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <header className="mb-8">
-          <h2 className="[font-family:var(--font-display)] text-3xl tracking-wide font-semibold">Why Phoenix Trade Partners</h2>
+          <h2 className="[font-family:var(--font-display)] text-3xl tracking-wide font-medium">
+            Why Phoenix Trade Partners
+          </h2>
           <p className="mt-2 [font-family:var(--font-body)] text-neutral-700 max-w-2xl">
-            Focused on outcomes with disciplined communication and reliable execution.
+            Focused on outcomes with disciplined communication and reliable
+            execution.
           </p>
         </header>
         <div className="grid md:grid-cols-2 gap-10 items-start">
