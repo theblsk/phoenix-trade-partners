@@ -65,10 +65,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/banner.jpg",
+        url: "/phoenix.jpg",
         width: 1200,
         height: 630,
-        alt: "Phoenix banner",
+        alt: "Phoenix Trade Partners",
       },
     ],
   },
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "Phoenix Trade Partners",
     description:
       "Premium international trade intermediary for procurement and deal facilitation.",
-    images: ["/banner.jpg"],
+    images: ["/phoenix.jpg"],
   },
 };
 
